@@ -1,5 +1,5 @@
 const express = require('express');
-const appstate = require('./ws3-fca/index.js');
+const appstate = require('ws3-fca');
 const fs = require('fs');
 const path = require('path');
 const { spawn } = require('child_process');
